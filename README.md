@@ -18,7 +18,7 @@ Dependencies are listed in `requirements.txt` and can be installed with one comm
 
 ---
 
-## Running the App
+## ▶️ Running the App
 - Run the following command inside the project folder: python main.py
 
 The application window will open.
@@ -38,6 +38,7 @@ View Reservations → see all bookings, edit, update or delete them
    git clone https://github.com/Shaf3yolaa/flight-reservation-app.git
    cd flight-reservation-app
 
+---
 
-👤 Author:
+## 👤 Author:
 Developed by Ahmed Elshafeey as part of the Sprints X Microsoft Python Programming Language Course Project.
