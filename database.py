@@ -1,7 +1,23 @@
+import os
+import sys
 import sqlite3
 from typing import List, Tuple, Optional
 
-DB_FILE = "flights.db"
+
+def resource_path(relative_path: str) -> str:
+    """Get absolute path to resource, works for dev and for PyInstaller exe."""
+    try:
+        # When bundled by PyInstaller
+        base_path = sys._MEIPASS
+    except Exception:
+        # When running normally
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
+
+
+DB_FILE = resource_path("flights.db")
+
 
 class Database:
     def __init__(self, db_file: str = DB_FILE):
@@ -75,6 +91,7 @@ class Database:
         cur.execute("DELETE FROM reservations WHERE id = ?", (reservation_id,))
         conn.commit()
         conn.close()
+
 
 # Provide a global db instance convenient for imports
 db = Database()
