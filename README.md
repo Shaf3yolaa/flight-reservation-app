@@ -1,7 +1,7 @@
 # ✈️ Flight Reservation Management System
 
 ## 📖 Overview
-This is a **desktop flight reservation system** built in Python by **Shafeey**.  
+This is a **desktop flight reservation system** built in Python by **Ahmed Elshafeey**.  
 It allows users to **book, view, update, and delete flight reservations** using a simple modern interface.  
 
 - **GUI:** Tkinter + ttkbootstrap (modern styled UI)  
@@ -41,4 +41,4 @@ View Reservations → see all bookings, edit, update or delete them
 ---
 
 ## 👤 Author:
-Developed by Ahmed Elshafeey as part of the Sprints X Microsoft Python Programming Language Course Project.
+Developed by **Ahmed Elshafeey** as a part of the **Sprints X Microsoft Python Programming Language Course Project**.
